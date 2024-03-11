@@ -101,6 +101,45 @@
 /****************************** SUBSCRIPTION *********************************/
 /*****************************************************************************/
 
+.subscription_component {
+  border-radius: 0.75rem;
+  background-color: var(--white);
+}
+
+.subscription-img_wrapper {
+  padding-left: 2.25rem;
+  padding-right: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.subscription-text_wrapper {
+  padding: 8.25rem 7rem 8.25rem 3.5rem;
+}
+
+.subscription-list_wrapper {
+  padding-top: 2rem;
+  padding-bottom: 3.75rem;
+}
+.subscription_list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.subscription_list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.get-started-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
 /*****************************************************************************/
 /********************************* STEPS *************************************/
 /*****************************************************************************/
