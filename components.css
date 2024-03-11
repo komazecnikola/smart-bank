@@ -118,17 +118,17 @@
   padding: 8.25rem 7rem 8.25rem 3.5rem;
 }
 
-.subscription-list_wrapper {
+.check-list_wrapper {
   padding-top: 2rem;
   padding-bottom: 3.75rem;
 }
-.subscription_list {
+.check_list {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.subscription_list-item {
+.check_list-item {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -138,6 +138,23 @@
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+/*****************************************************************************/
+/********************************* SAVINGS ***********************************/
+/*****************************************************************************/
+
+.savings_component {
+  border-radius: 0.75rem;
+  background-color: var(--white);
+}
+
+.savings-text_wrapper {
+  padding: 7.75rem 0.375rem 7.75rem 7rem;
+}
+
+.savings-img_wrapper {
+  padding: 2.25rem 2.875rem 2.25rem 2rem;
 }
 
 /*****************************************************************************/
