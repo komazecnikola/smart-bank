@@ -1,0 +1,48 @@
+/*****************************************************************************/
+/********************************* HEADER ************************************/
+/*****************************************************************************/
+
+.header {
+  background-color: var(--white);
+}
+
+.header-wrapper {
+  height: 4.6875rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar_component {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-link {
+  padding: 0.5rem 1rem;
+  color: var(--primary-950);
+}
+
+.navbar_buttons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn {
+  cursor: poiner;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--primary-cta);
+}
+
+.btn-navbar {
+  color: var(--white);
+}
