@@ -306,4 +306,11 @@ ul {
 
 /* BENEFITS */
 .section_benefits {
+  margin-bottom: 1.25rem;
+}
+
+/* STEPS */
+
+.section_step {
+  margin-bottom: 1.25rem;
 }

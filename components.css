@@ -90,12 +90,29 @@
   padding: 3.875rem 3rem;
 }
 
-.benefit_wrapper {
-}
-
 .benefit_headline {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   margin-bottom: 1.5rem;
+}
+
+/*****************************************************************************/
+/********************************* STEPS *************************************/
+/*****************************************************************************/
+
+.step_component {
+  border-radius: 0.75rem;
+  background-color: var(--white);
+  padding: 4.125rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.step_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
