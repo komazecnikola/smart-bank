@@ -118,29 +118,6 @@ ul {
 }
 
 /*****************************************************************/
-/*************************** LAYOUT ******************************/
-/*****************************************************************/
-
-.container {
-  max-width: 80rem;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  margin-inline: auto;
-}
-
-.grid {
-  display: grid;
-}
-
-.grid-2-cols {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3-cols {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-/*****************************************************************/
 /************************* TYPOGRAPHY ****************************/
 /*****************************************************************/
 
@@ -291,4 +268,42 @@ ul {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #272e35;
+}
+
+/*****************************************************************/
+/*************************** LAYOUT ******************************/
+/*****************************************************************/
+
+.container {
+  max-width: 80rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9rem;
+}
+
+/*****************************************************************/
+/************************** SECTIONS *****************************/
+/*****************************************************************/
+
+/* HERO */
+.section_hero {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* BENEFITS */
+.section_benefits {
 }
