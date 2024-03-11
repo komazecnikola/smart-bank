@@ -72,7 +72,14 @@
   /* FONT */
 
   --heading-font: "Lato", sans-serif;
-  --body-font: "Inter";
+  --body-font: "Inter", sans-serif;
+}
+
+body {
+  background: var(--light-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 img,
