@@ -259,3 +259,36 @@
 /*****************************************************************************/
 /********************************* MANAGE ************************************/
 /*****************************************************************************/
+.manage_component {
+  border-radius: 0.75rem;
+  background-color: var(--white);
+}
+
+.manage-img_wrapper {
+  padding-top: 5.25rem;
+  padding-bottom: 5.25rem;
+}
+
+.manage-text_wrapper {
+  padding: 5.25rem 7rem 5.25rem 3rem;
+}
+
+.manage-list_wrapper {
+  margin-top: 2rem;
+}
+
+.manage-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.manage-list-item_headline {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.manage-list-item_text {
+  padding-left: 3rem;
+}
