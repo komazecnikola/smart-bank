@@ -135,7 +135,7 @@
 }
 
 .get-started-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 1rem;
 }
@@ -227,5 +227,31 @@
 .circle-list-item {
   display: flex;
   gap: 1.5rem;
+  align-items: center;
+}
+
+/*****************************************************************************/
+/******************************* SECURITY ************************************/
+/*****************************************************************************/
+
+.security_component {
+  border-radius: 0.75rem;
+  background-color: var(--white);
+}
+
+.security-text_wrapper {
+  padding: 4.5rem 3.5rem 4.5rem 7rem;
+}
+
+.security-paragraph_wrapper {
+  margin-top: 1rem;
+  margin-bottom: 3.75rem;
+}
+
+.security-img_wrapper {
+  padding-right: 12.375rem;
+}
+
+.security-grid {
   align-items: center;
 }
