@@ -293,3 +293,57 @@
 .manage-list-item_text {
   padding-left: 3rem;
 }
+
+/*****************************************************************************/
+/*********************************** CTA *************************************/
+/*****************************************************************************/
+
+.cta_grid {
+  gap: 1.5rem;
+}
+
+.cta_card {
+  border-radius: 0.75rem;
+  padding: 2rem;
+  height: 37.625rem;
+  width: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 45ch;
+}
+
+.cta_card.bonuses {
+  background: radial-gradient(
+    121.59% 299.1% at -18.79% 121.59%,
+    #fb44c9 0%,
+    #ff9ec7 0.01%,
+    #4635c3 100%
+  );
+}
+
+.cta_card.rewards {
+  background: radial-gradient(
+    159.21% 377.09% at -20.15% 100%,
+    #4937c4 0%,
+    #98b5ff 100%
+  );
+}
+
+.chat_image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 79%;
+}
+
+.card-link-margin {
+  margin-top: auto;
+  margin-bottom: 3rem;
+}

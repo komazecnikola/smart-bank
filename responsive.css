@@ -1,0 +1,10 @@
+@media only screen and (max-width: 63em) {
+  /* LAYOUT */
+  .grid-2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: 1fr;
+  }
+}
