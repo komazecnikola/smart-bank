@@ -90,6 +90,10 @@
   padding: 3.875rem 3rem;
 }
 
+.benefits-grid {
+  gap: 9rem;
+}
+
 .benefit_headline {
   display: flex;
   align-items: center;
@@ -185,9 +189,6 @@
   padding: 7rem 11rem 0 11rem;
   border-radius: 0.75rem;
   background-color: var(--white);
-}
-
-.steps-img_wrapper {
 }
 
 .steps-text_wrapper {
