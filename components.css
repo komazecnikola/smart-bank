@@ -310,6 +310,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  gap: 1.5rem;
 }
 
 .card-content_wrapper {
@@ -336,7 +337,7 @@
   );
 }
 
-.chat_image {
+.card_image {
   position: absolute;
   bottom: 0;
   right: 0;
