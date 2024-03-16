@@ -357,5 +357,28 @@
 
 .plan_paragraph {
   text-align: center;
-  max-width: 40%;
+  max-width: 50%;
+}
+
+.pricing-grid {
+  gap: 1.25rem;
+}
+
+.pricing_card {
+  background-color: var(--white);
+  border-radius: 0.625rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem;
+}
+
+.is-purple {
+  background-color: var(--primary-500);
+}
+
+.pricing-card_text {
+  text-align: center;
 }
