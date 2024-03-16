@@ -12,8 +12,6 @@
 :root {
   /* COLORS */
 
-  --orange: #ff6e30;
-  --blue: #748fb5;
   --dark-bg: #1e252b;
   --light-bg: #f4f6f8;
   --white: #ffffff;
@@ -268,6 +266,65 @@ ul {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #272e35;
+}
+
+/*****************************************************************/
+/*************************** BUTTON ******************************/
+/*****************************************************************/
+
+.btn {
+  font-family: var(--body-font);
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primary {
+  cursor: pointer;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--primary-500);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-600);
+}
+
+.btn-primary:active {
+  background-color: var(--primary-700);
+}
+
+.btn-secondary {
+  color: var(--dark-500);
+  background-color: var(--secondary-500);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-600);
+}
+
+.btn-secondary:active {
+  background-color: var(--secondary-700);
+}
+
+.btn-tertiary {
+  color: var(--white);
+  background-color: var(--dark-500);
+}
+
+.btn-tertiary:hover {
+  background-color: var(--dark-400);
+}
+
+.btn-tertiary:active {
+  background-color: var(--dark-300);
 }
 
 /*****************************************************************/
