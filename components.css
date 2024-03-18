@@ -360,6 +360,10 @@
   max-width: 50%;
 }
 
+.pricing_component {
+  margin-bottom: 1.25rem;
+}
+
 .pricing-grid {
   gap: 1.25rem;
 }
@@ -381,4 +385,13 @@
 
 .pricing-card_text {
   text-align: center;
+}
+
+.info_component {
+  background-color: var(--white);
+  border-radius: 0.625rem;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
