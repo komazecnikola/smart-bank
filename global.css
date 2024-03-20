@@ -344,6 +344,10 @@ ul {
   color: var(--white);
 }
 
+.is-light-gray {
+  color: var(--dark-200);
+}
+
 /*****************************************************************/
 /*************************** LAYOUT ******************************/
 /*****************************************************************/
@@ -434,4 +438,11 @@ ul {
 .section_pricing {
   margin-top: 5rem;
   margin-bottom: 10.25rem;
+}
+
+/* FOOTER */
+
+.section_footer {
+  background-color: var(--dark-900);
+  padding: 4rem 5.375rem;
 }
